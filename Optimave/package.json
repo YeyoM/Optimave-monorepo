@@ -1,0 +1,38 @@
+{
+  "name": "optimave",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-spring/parallax": "*",
+    "@react-spring/web": "*",
+    "@stripe/react-stripe-js": "^1.7.0",
+    "@stripe/stripe-js": "^1.22.0",
+    "axios": "^0.25.0",
+    "leva": "^0.9.20",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
+    "react-spring": "^9.4.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "@vitejs/plugin-react": "^1.2.0",
+    "vite": "^2.8.0"
+  },
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-react": {
+          "throwIfNamespace": false
+        }
+      }
+    ]
+  ],
+  "plugins": [],
+  "proxy": "http://localhost:3001"
+}

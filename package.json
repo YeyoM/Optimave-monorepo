@@ -1,0 +1,28 @@
+{
+  "name": "optimave",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "workspaces": [
+    "API",
+    "Optimave"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspace=Optimave",
+    "start": "npm run start --workspace=API",
+    "dev:api": "npm run build && npm run dev --workspace=API"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json",
+    "env": {
+      "jest": true
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
