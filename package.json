@@ -8,6 +8,9 @@
     "Optimave"
   ],
   "main": "index.js",
+  "engines": {
+    "npm": "7.9.0"
+  },
   "scripts": {
     "build": "npm run build --workspace=Optimave",
     "start": "npm run start --workspace=API",
