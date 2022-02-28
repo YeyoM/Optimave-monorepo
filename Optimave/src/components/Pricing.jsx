@@ -31,7 +31,7 @@ const Pricing = () => {
         <p>Unlimited Access</p>
         <p>Private channel on Discord</p>
         <p>Direct contact with out Team</p>
-        <Link className='link' to='Buy'>Buy Now!</Link>
+        <Link className='link' to='/SignUp'>Buy Now!</Link>
       </animated.div>
     </div>
   )

@@ -1,23 +1,23 @@
 const AboutOptimave = () => {
   return (
     <div className='About-section'>
-      <a name='about'></a>
+      <a name='about' />
       <h1>Why to choose Optimave?</h1>
       <div className='About-alone'>
         <h4>Made for gamers...</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iste, maiores reprehenderit voluptatum distinctio impedit amet illum libero eveniet dignissimos! </p>
+        <p>Optimave has the best settings for your favorite video game like Fortnite, Valorant, Warzone, Apex legends and many more, just click on what you want to improve and in less than 3 seconds you will get the necessary modifications so that your performance is the best possible, you can improve your performance in fps, latencies and input delay</p>
       </div>
       <div className='About-alone'>
         <h4>Get the ultimate experience</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam quos soluta, fuga optio provident. Earum nobis ipsum voluptatem iure, illum deleniti similique rem laborum ipsa fugit qui, consequuntur explicabo?</p>
+        <p>With the main audience being gamers, power-users and enthusiasts, we understand that performance, speed and low latency is obligatory, which is why great effort has been invested into making Optimave a capable, efficient yet private operating system.</p>
       </div>
       <div className='About-alone'>
         <h4>Play like no other!</h4>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, nobis numquam provident aut dolore repellendus perferendis error distinctio harum </p>
+        <p>Set your PC in a whole new other level, stop thinking about what are your games best settings, with optimave you get the all in one package, don't overthink it, Optimave is the only tool you will need to take your gaming experience to the next level.</p>
       </div>
     </div>
-    
+
   )
 }
 
-export default AboutOptimave  
+export default AboutOptimave

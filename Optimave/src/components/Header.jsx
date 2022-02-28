@@ -5,8 +5,8 @@ const Header = () => {
     <div className='Header-section'>
       <header>Welcome to Optimave</header>
       <p><small> The ultimate booster for your PC, let the power of your machine flow through the games.</small></p>
-      <Link to='Buy'>Buy Now</Link>
-      <a href='#'>Join our Discord</a>
+      <Link to='/SignUp'>Buy Now</Link>
+      <a href='https://discord.gg/'>Join our Discord</a>
 
     </div>
   )
